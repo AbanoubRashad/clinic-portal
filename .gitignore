@@ -1,0 +1,15 @@
+node_modules
+.next
+data/*.db*
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+screenshots
+
+.vercel
+.env*
+
+# keep the template, generated agent notes, internal handoff
+!.env.example
+AGENTS.md
+docs/clinic-portal/HANDOFF.md
